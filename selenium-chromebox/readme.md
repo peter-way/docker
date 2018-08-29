@@ -15,8 +15,15 @@ print(driver.find_element_by_tag_name('body').get_attribute('innerHTML')[:100])
 ```
 
 2. 由 Dockerfile 生成 image
+  方法一：直接从 github 仓库拖
   ```
-  docker build <Dockerfile所在目录> -t chromebox
+  docker build -t chromebox 'https://github.com/peter-way/docker.git#master:selenium-chromebox'
+  ```
+
+  方法二：克隆 github 仓库
+  ```
+  git clone https://github.com/peter-way/docker.git
+  docker build -t chromebox docker/selenium-chromebox
   ```
 
 3. 启动 container
