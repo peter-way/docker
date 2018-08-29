@@ -1,0 +1,6 @@
+# Ubuntu 16 中国大陆镜像站点
+deb http://mirrors.aliyun.com/ubuntu/ xenial main
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main
